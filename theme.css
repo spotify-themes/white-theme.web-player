@@ -1,56 +1,47 @@
-html {
-    background-color: white;
-}
+theme.meta
+[name="white-theme"]
+[version="1.0"]
+[author="Bruno Finger"]
+[email="spotify-theme@brunofin.anonaddy.me"]
+[repository="https://github.com/spotify-themes/white-theme.web-player"]
+{}
 
-.Root__nav-bar {
-    background-color: rgb(255 255 255);
-}
-
-body,
-button,
-input {
-    color: white;
-}
-
-button * {
-    color: black;
-}
-
-a {
-    color: black;
+html, .e082d93e1995fad3363fcbc6ae888189-scss {
+    background-color: #efefef;
 }
 
 .now-playing-bar-container {
+    border-top: 1px solid white;
+    background-color: #e3e3e3;
+}
+
+.Root__nav-bar,.NavBar__download-item {
     background-color: white;
 }
 
-.NavBar__download-item {
-    background-color: #fff;
+a, _5991c352036dcc651a7bec853fd570a8-scss, body, button, input {
+    color: #00000087;
 }
 
-.GlueDropTarget.GlueDropTarget--tracks a {
-    color: black;
+.RootlistItem__link:link, .RootlistItem__link:visited, .GlueDropTarget--tracks *,
+.os-theme-spotify.os-host-transition>.os-scrollbar-horizontal>.os-scrollbar-track>.os-scrollbar-handle, .os-theme-spotify.os-host-transition>.os-scrollbar-vertical>.os-scrollbar-track>.os-scrollbar-handle{
+    color: #9b9b9b;
+    fill: #9b9b9b;
 }
 
-.GlueDropTarget.GlueDropTarget--tracks a:hover,
-.RootlistItem__link:hover {
-    color: grey;
+.RootlistItem__link:hover, .link-subtle:not(.navBar-link--active):hover {
+    color: #797979;
 }
 
-.GlueDropTarget.GlueDropTarget--tracks a,
-.RootlistItem__link:link,
-.RootlistItem__link:visited {
-    color: black;
+.navBar-link--active {
+    background-color: #797979;
 }
 
-._3cf7cb92e8b34cd675db241406113852-scss {
-    background: #e0e0e0;
+._3cf7cb92e8b34cd675db241406113852-scss, front-page-playlist-background {
+    background-color: #e3e3e3;
 }
 
-.b5b01e376bfe3156c865cba3909f11c3-scss > div {
-    background-color: white;
-}
-
-.e082d93e1995fad3363fcbc6ae888189-scss {
-    background-color: white;
+._9764a8966c108117bdf6f47cb601747a-scss, .profile-gradient {
+    background-color: rgb(247 255 229);
+    
 }
