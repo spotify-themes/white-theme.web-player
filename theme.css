@@ -1,0 +1,56 @@
+html {
+    background-color: white;
+}
+
+.Root__nav-bar {
+    background-color: rgb(255 255 255);
+}
+
+body,
+button,
+input {
+    color: white;
+}
+
+button * {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+.now-playing-bar-container {
+    background-color: white;
+}
+
+.NavBar__download-item {
+    background-color: #fff;
+}
+
+.GlueDropTarget.GlueDropTarget--tracks a {
+    color: black;
+}
+
+.GlueDropTarget.GlueDropTarget--tracks a:hover,
+.RootlistItem__link:hover {
+    color: grey;
+}
+
+.GlueDropTarget.GlueDropTarget--tracks a,
+.RootlistItem__link:link,
+.RootlistItem__link:visited {
+    color: black;
+}
+
+._3cf7cb92e8b34cd675db241406113852-scss {
+    background: #e0e0e0;
+}
+
+.b5b01e376bfe3156c865cba3909f11c3-scss > div {
+    background-color: white;
+}
+
+.e082d93e1995fad3363fcbc6ae888189-scss {
+    background-color: white;
+}
