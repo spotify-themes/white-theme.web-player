@@ -19,12 +19,16 @@ html, .e082d93e1995fad3363fcbc6ae888189-scss {
     background-color: white;
 }
 
-a, _5991c352036dcc651a7bec853fd570a8-scss, body, button, input {
+a, _5991c352036dcc651a7bec853fd570a8-scss, body, button, input, ._587844af67ca3c14dbf7deb3d5e64f69-scss {
     color: #00000087;
 }
 
+.tracklist-name, .track-name-wrapper .tracklist-row__album-name-link, .track-name-wrapper .tracklist-row__artist-name-link {
+    color: black;
+}
+
 .RootlistItem__link:link, .RootlistItem__link:visited, .GlueDropTarget--tracks *,
-.os-theme-spotify.os-host-transition>.os-scrollbar-horizontal>.os-scrollbar-track>.os-scrollbar-handle, .os-theme-spotify.os-host-transition>.os-scrollbar-vertical>.os-scrollbar-track>.os-scrollbar-handle{
+.os-theme-spotify.os-host-transition>.os-scrollbar-horizontal>.os-scrollbar-track>.os-scrollbar-handle, .os-theme-spotify.os-host-transition>.os-scrollbar-vertical>.os-scrollbar-track>.os-scrollbar-handle {
     color: #9b9b9b;
     fill: #9b9b9b;
 }
@@ -43,5 +47,4 @@ a, _5991c352036dcc651a7bec853fd570a8-scss, body, button, input {
 
 ._9764a8966c108117bdf6f47cb601747a-scss, .profile-gradient {
     background-color: rgb(247 255 229);
-    
 }
