@@ -8,3 +8,4 @@ Tl;Dr:
 
 Use the Spotify Web player and the Chrome extension "Stylus" to add custom styling to any web page. Add the styles from `theme.css` to `open.spotify.com`.
 
+![screenshot](https://pbs.twimg.com/media/Ed7GHwKXkAAObTc?format=png&name=large)
