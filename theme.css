@@ -1,4 +1,4 @@
-theme.meta
+theme.about
 [name="white-theme"]
 [version="1.0"]
 [author="Bruno Finger"]
@@ -6,34 +6,100 @@ theme.meta
 [repository="https://github.com/spotify-themes/white-theme.web-player"]
 {}
 
-html, .e082d93e1995fad3363fcbc6ae888189-scss {
+html,
+.e082d93e1995fad3363fcbc6ae888189-scss,
+._61ab7cffe8117f2123af98dc70709f39-scss,
+._34098cfd13d48e2910679f35aea2c377-scss:hover {
     background-color: #efefef;
 }
+._7d5bb5bfd500c0c322fb865b69181717-scss {
+    box-shadow: 0 4px 4px rgb(0 0 0 / 26%);
+}
 
-.now-playing-bar-container {
-    border-top: 1px solid white;
+.react-contextmenu,
+.now-playing-bar-container,
+._7d5bb5bfd500c0c322fb865b69181717-scss,
+.connect-device-list-container,
+.connect-device-list-item,
+._26d9e31a05dd5fba3afe1b281ae2cf9e-scss ._66febc2caff37c822a831232b6e73171-scss{
     background-color: #e3e3e3;
 }
 
-.Root__nav-bar,.NavBar__download-item {
+.react-contextmenu-item.active,
+.react-contextmenu-item:hover,
+._5d8857b271ece35ed4dd191b5b15f48e-scss:focus,
+._5d8857b271ece35ed4dd191b5b15f48e-scss:hover,
+.connect-device-list-item:focus,
+.connect-device-list-item:hover {
+    background-color: #efefef;
+}
+
+.now-playing-bar-container,
+.b1b6f67740779440315549e39354d155-scss {
+    border-top: 1px solid white;
+}
+
+.Root__nav-bar,
+.NavBar__download-item,
+._34098cfd13d48e2910679f35aea2c377-scss {
     background-color: white;
 }
 
-a, _5991c352036dcc651a7bec853fd570a8-scss, body, button, input, ._587844af67ca3c14dbf7deb3d5e64f69-scss {
-    color: #00000087;
+a,
+_5991c352036dcc651a7bec853fd570a8-scss,
+body,
+button,
+input,
+._587844af67ca3c14dbf7deb3d5e64f69-scss,
+._5991c352036dcc651a7bec853fd570a8-scss,
+._34098cfd13d48e2910679f35aea2c377-scss,
+._739e8d9712a3c24e650861b9eb9c1c89-scss,
+._1e2f33c891b2d5f1cdb0553ffafb2ca9-scss._43e69e163e9f74c155bebc4da0547d0b-scss{
+    color: #00000087 !important;
 }
 
-.tracklist-name, .track-name-wrapper .tracklist-row__album-name-link, .track-name-wrapper .tracklist-row__artist-name-link {
+.tracklist-name,
+.track-name-wrapper .tracklist-row__album-name-link,
+.track-name-wrapper .tracklist-row__artist-name-link {
     color: black;
 }
 
-.RootlistItem__link:link, .RootlistItem__link:visited, .GlueDropTarget--tracks *,
-.os-theme-spotify.os-host-transition>.os-scrollbar-horizontal>.os-scrollbar-track>.os-scrollbar-handle, .os-theme-spotify.os-host-transition>.os-scrollbar-vertical>.os-scrollbar-track>.os-scrollbar-handle {
-    color: #9b9b9b;
+.RootlistItem__link:link,
+.RootlistItem__link:visited,
+.GlueDropTarget--tracks *,
+.os-theme-spotify.os-host-transition > .os-scrollbar-horizontal > .os-scrollbar-track > .os-scrollbar-handle,
+.os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle,
+._7313e48b8f1c8a11ff2eff89b67ff69a-scss,
+.f1e66e03ba9a9eea0d23aedf0105fe74-scss,
+.a8cc695b476965309a30d01880d6cb01-scss,
+.a319647e0b4638c35cbe1cc56bbe8710-scss,
+.tracklist-row .position,
+.tracklist-row .tracklist-duration,
+.c74a35c3aba27d72ee478f390f5d8c16-scss,
+.react-contextmenu-item.active,
+.react-contextmenu-item:hover,
+._61ab7cffe8117f2123af98dc70709f39-scss,
+._34098cfd13d48e2910679f35aea2c377-scss:hover,
+._7d5bb5bfd500c0c322fb865b69181717-scss,
+._5d8857b271ece35ed4dd191b5b15f48e-scss:focus,
+._5d8857b271ece35ed4dd191b5b15f48e-scss:hover,
+.tracklist-name,
+.track-name-wrapper .tracklist-row__album-name-link,
+.track-name-wrapper .tracklist-row__artist-name-link,
+._150ae7fd9abd9aa13b6fa9c8be2b76a6-scss,
+.PlaylistRecommendedTracks__title,
+.connect-device-list-item:focus,
+.connect-device-list-item:hover,
+.connect-title,
+.connect-header__image,
+[class*=" spoticon-"]:before, [class^=spoticon-]:before,
+.connect-device-list-item .connect-device-list-item__device-subtitle {
+    color: #9b9b9b !important;
     fill: #9b9b9b;
 }
 
-.RootlistItem__link:hover, .link-subtle:not(.navBar-link--active):hover {
+.RootlistItem__link:hover,
+.link-subtle:not(.navBar-link--active):hover {
     color: #797979;
 }
 
@@ -41,10 +107,15 @@ a, _5991c352036dcc651a7bec853fd570a8-scss, body, button, input, ._587844af67ca3c
     background-color: #797979;
 }
 
-._3cf7cb92e8b34cd675db241406113852-scss, front-page-playlist-background {
+._3cf7cb92e8b34cd675db241406113852-scss,
+front-page-playlist-background,
+._4e5d4ac7abe19f92074b5861b22fa8a4-scss {
     background-color: #e3e3e3;
+    background-image: unset;
 }
 
-._9764a8966c108117bdf6f47cb601747a-scss, .profile-gradient {
-    background-color: rgb(247 255 229);
+
+._1aca8ea6d314e58957d99cc0df0d2ca1-scss {
+    background-color: unset !important;
+    background-image: unset;
 }
